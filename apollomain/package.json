@@ -1,0 +1,33 @@
+{
+  "name": "@transaction-history/apollomain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "//": "Obs: react-addons-shallow-compare and react-dom is only used by react-dates",
+  "dependencies": {
+    "@kindred-payment/pay-provider-ui-common": "0.0.133",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-apollo": "^1.4.16",
+    "react-dates": "^14.0.0",
+    "react-dom": "^16.0.0",
+    "styled-components": "^2.1.2"
+  },
+  "peerDependencies": {
+    "@transaction-history/translations": "1.0.0",
+    "react": "^16.0.0",
+    "react-apollo": "^1.4.16",
+    "styled-components": "^2.1.2"
+  }
+}

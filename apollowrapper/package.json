@@ -1,0 +1,26 @@
+{
+  "name": "@transaction-history/apollowrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@transaction-history/apollomain": "1.0.0",
+    "apollo-cache-inmemory": "^1.1.0",
+    "apollo-client": "^2.0.2",
+    "apollo-link-core": "^0.5.4",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "graphql-tools": "^2.2.1",
+    "react": "^16.0.0",
+    "react-apollo": "^2.0.0",
+    "react-dom": "^16.0.0",
+    "styled-components": "^2.1.2"
+  },
+  "peerDependencies": {
+    "@transaction-history/apollomain": "1.0.0"
+  }
+}
